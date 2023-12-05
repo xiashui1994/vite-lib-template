@@ -12,7 +12,6 @@ export default defineConfig({
   },
   plugins: [dts({
     staticImport: true,
-    skipDiagnostics: false,
     insertTypesEntry: true,
   })],
 })

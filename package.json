@@ -7,16 +7,17 @@
   "author": "xiashui",
   "license": "MIT",
   "exports": {
-    "types": "./index.d.ts",
-    "import": "./dist/counter.js",
-    "require": "./dist/counter.umd.cjs"
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/counter.js",
+      "require": "./dist/counter.umd.cjs"
+    }
   },
   "main": "./dist/counter.umd.cjs",
   "module": "./dist/counter.js",
-  "types": "./index.d.ts",
+  "types": "./dist/index.d.ts",
   "files": [
-    "dist",
-    "index.d.ts"
+    "dist"
   ],
   "engines": {
     "node": "^18.0.0 || >=20.0.0"

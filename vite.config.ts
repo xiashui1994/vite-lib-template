@@ -10,8 +10,5 @@ export default defineConfig({
       fileName: 'counter',
     },
   },
-  plugins: [dts({
-    staticImport: true,
-    insertTypesEntry: true,
-  })],
+  plugins: [dts({ rollupTypes: true })],
 })

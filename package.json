@@ -30,14 +30,14 @@
     "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^6.4.1",
-    "@commitlint/cli": "^20.1.0",
-    "@commitlint/config-conventional": "^20.0.0",
-    "eslint": "^9.39.1",
+    "@antfu/eslint-config": "^6.7.3",
+    "@commitlint/cli": "^20.3.0",
+    "@commitlint/config-conventional": "^20.3.0",
+    "eslint": "^9.39.2",
     "husky": "^9.1.7",
     "lint-staged": "^16.2.7",
     "typescript": "^5.9.3",
-    "vite": "^7.2.6",
+    "vite": "^7.3.1",
     "vite-plugin-dts": "^4.5.4"
   }
 }
